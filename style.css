@@ -274,6 +274,30 @@ body {
 
 
 /* KEYFRAMES ANIMATION */
+
+@media (max-width: 768px) {
+    .header {
+        background: #0c1022;
+    }
+
+    #Portfolio {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding: 1rem 4%;
+        background: #0c1022;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        z-index: 1;
+        transition: .25s ease;
+        transition-delay: .25s;
+    }
+}
+
 @keyframes slideTop {
     0% {
         opacity: 0;
