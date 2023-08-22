@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -15,39 +19,183 @@
     <header class="header">
         <a href="#" class="logo">Portfolio.</a>
 
+        <i class='bx bx-menu' id="menu-icon"></i>
+
         <nav class="navbar">
-            <a href="#"style="--i:1" class="active">Home</a>
-            <a href="#"style="--i:2">About</a>
-            <a href="#"style="--i:3">Skills</a>
-            <a href="#"style="--i:4">Portfolio</a>
-            <a href="#"style="--i:5">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="home">
-        <div class="home-sci">
-            <a href="#"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-discord'></i></a>
-        </div>
-
+    <!-- home section design -->
+    <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi, I'm Non Quarxnt1ne</h1>
-            <h3>Full Stack Developer</h3>
-            <p>สวัสดีครับ เราชื่อว่านนท์ หรือชื่อที่รู้จักกัน Quarxnt1ne อายุ18ปี นี้เป็น Portfolio เบื้องต้นของผม ซึ่งทำเป็นครั้งและยังไม่สมบูรณ์เท่าที่เป็น ก็ถ้ามีเวลาว่างจะมาทำต่อด้วยภาษา Js.และการแก้ทำ Responsiveนะครับ.</p>
-            <a href="#" class="btn">My Project</a>
+            <h3>Hello, It's Me</h3>
+            <h1>Non Quarxnt1ne</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure optio itaque eum quia! 
+                Mollitia laborum nam quam.</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="#" class="btn">Dowload</a>
         </div>
 
         <div class="home-img">
-            <div class="glowing-circle">
-                <span></span>
-                <span></span>
-                <div class="image">
-                    <img src="https://cdn.discordapp.com/attachments/1134760056945119285/1142050531372695692/Quarxntine-removebg-preview.png" alt="">
+            <img src="https://cdn.discordapp.com/attachments/1134760056945119285/1143480537676267550/home.png" alt="">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://cdn.discordapp.com/attachments/1134760056945119285/1143480537382654092/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nesciunt 
+                ut repellat, ratione nobis reprehenderit esse, repellendus accusamus saepe iste quaerat nihil 
+                assumenda explicabo soluta nisi eligendi adipisci? Cum perferendis suscipit recusandae corrupti ipsam, 
+                reprehenderit pariatur? Optio ratione qui eaque. Consectetur dolores vitae quidem maxime ipsa.</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--services section design-->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web development</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ipsam 
+                eligendi fuga nihil atque 
+                    ut ex repudiandae, reiciendis debitis nulla.</p>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic design</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ipsam 
+                eligendi fuga nihil atque 
+                    ut ex repudiandae, reiciendis debitis nulla.</p>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Degital Marketing</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ipsam 
+                eligendi fuga nihil atque 
+                    ut ex repudiandae, reiciendis debitis nulla.</p>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="https://media.discordapp.net/attachments/1134760056945119285/1143480537076473906/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://cdn.discordapp.com/attachments/1134760056945119285/1143480538976489612/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://media.discordapp.net/attachments/1134760056945119285/1143480538699669504/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://media.discordapp.net/attachments/1134760056945119285/1143480538183766046/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://media.discordapp.net/attachments/1134760056945119285/1143480538448019547/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="https://media.discordapp.net/attachments/1134760056945119285/1143480537953083392/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, odio?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Quarxnt1ne | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+    <script src="main.js"></script>
 </body>
+
 </html>
