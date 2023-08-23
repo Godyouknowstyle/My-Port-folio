@@ -450,4 +450,12 @@ span {
     .services h2 {
         margin-bottom: 3rem;
     }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
