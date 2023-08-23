@@ -483,3 +483,9 @@ span {
         width: 100%;
     }
 }
+
+@media (max-width: 365px) {
+    .home-img  img {
+        width: 90vw;
+    }
+}
