@@ -389,3 +389,9 @@ span {
         padding: 2rem 3%;
     }
 }    
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+}
